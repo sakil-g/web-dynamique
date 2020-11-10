@@ -14,8 +14,9 @@
     background-size: cover;
     height: 520px;
 }
-.jumbotron{
-    width: 460px !important;
+.headersTexte{
+    margin-bottom: 80px;
+    width: 460px;
 }
 /*SECTION CARDS PRESENTATION*/
 .positionCards {
