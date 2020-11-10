@@ -68,6 +68,12 @@
     height: 300px;
   }
 
+  #imgAuteur {
+      height: 44px;
+      width: 44px ;
+      border-radius: 100%;
+  }
+
 /*SECTION CONTACT NEWSLETTER CARTE*/
 #contact{
     height: 311px;
