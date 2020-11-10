@@ -13,8 +13,10 @@
     background-attachment: scroll;
     background-size: cover;
     height: 520px;
-  }
-
+}
+.jumbotron{
+    width: 460px !important;
+}
 /*SECTION CARDS PRESENTATION*/
 .positionCards {
     position: absolute;
