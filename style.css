@@ -55,7 +55,18 @@
 }
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
+.swiper-container {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+  }
 
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
 
 /*SECTION CONTACT NEWSLETTER CARTE*/
 #contact{
