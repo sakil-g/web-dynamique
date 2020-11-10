@@ -32,7 +32,10 @@
     border: none !important;
 }
 /*SECTION HUMAN*/
-
+#activites{
+    height: 406px;
+    border: 1px solid black;
+}
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
 
