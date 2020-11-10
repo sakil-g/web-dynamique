@@ -1,5 +1,7 @@
 /*GLOBAL*/
-
+.col-lg-4, .col-sm-12 {
+    padding: 0px!important;
+}
 
 /*HEADERS*/
 .masthead {
@@ -14,7 +16,10 @@
   }
 
 /*SECTION CARDS PRESENTATION*/
-
+.positionCards {
+    position: absolute;
+    bottom: 100px;
+}
 
 /*SECTION HUMAN*/
 
