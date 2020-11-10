@@ -24,6 +24,10 @@
 #presentation {
     width: 74%!important;
 }
+
+.card {
+    border: none !important;
+}
 /*SECTION HUMAN*/
 
 
