@@ -78,3 +78,25 @@
     height: 90px;
     background: grey;
 }
+
+@media (max-width:768px){
+    /*GLOBAL*/
+
+/*HEADERS*/
+
+/*SECTION CARDS PRESENTATION*/
+.positionCards {
+    bottom: 0px;
+}
+/*SECTION HUMAN*/
+
+
+/*SECTION AUTHOR SERVICES CAROUSSEL*/
+
+
+/*SECTION CONTACT NEWSLETTER CARTE*/
+
+
+/*FOOTER*/
+
+}
