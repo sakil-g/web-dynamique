@@ -190,7 +190,7 @@
                 <!-- Add Arrows -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-            
+            </div>
             </section>
 
     <!--SECTION CONTACT NEWSLETTER CARTE-->
@@ -214,19 +214,15 @@
             </div>
             <div class="col-lg-4 col-sm-12 p-4">
                 <h2 class="display-4">Newsletter</h2>
-                <form>
+                <form id="form">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="basic-addon1">Email :</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" required
+                        pattern="[^@\s]+@[^@\s]+.[^@\s]+" aria-describedby="basic-addon1">
                       </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text">Commentaire</span>
-                        </div>
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                      </div>
+                   
                       <button type="button" class="btn btn-primary">Primary</button>
                 </form>
             </div>
