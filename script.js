@@ -1,3 +1,4 @@
+//Caroussel
 var swiper = new Swiper('.swiper-container', {
     effect: 'flip',
     grabCursor: true,
@@ -10,6 +11,7 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
 
+  //Animations services
   $( document ).ready(function() { // Tells the function to wait to preform until everything on the page has loaded.
 
     $(window).scroll(function() { // Says this function is preformed continuisly while scrolling.
@@ -21,3 +23,7 @@ var swiper = new Swiper('.swiper-container', {
         } 
     });
 });
+
+
+
+
