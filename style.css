@@ -73,7 +73,19 @@ p, li {
     background-size: cover;
 
 }
-
+.businessman {
+    width: 220px;
+}
+@media (max-width: 768px){
+    .businessman {
+        width: 100px;
+    }  
+}
+@media (max-width: 576px){
+    .businessman {
+        width: 50px;
+    }  
+}
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
 .swiper-container {
