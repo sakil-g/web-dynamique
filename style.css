@@ -30,7 +30,7 @@ p, li {
 /*SECTION CARDS PRESENTATION*/
 .positionCards {
     position: absolute;
-    bottom: 100px;
+    bottom: 200px;
 }
 
 #presentation {
