@@ -2,13 +2,16 @@
 .col-lg-4, .col-sm-12 {
     padding: 0px!important;
 }
-/* body, html{
-    max-width: 1024px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
+h1,h2,h3,h4 {
+	font-family: 'Allerta', Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+}
+p, li {
+	font-family: 'Crimson Text', Georgia, Times, serif;
+	font-size: 20px;
+	line-height: 25px;
+}
 /*HEADERS*/
 .masthead {
     padding-top: 10rem;
@@ -40,10 +43,10 @@
 
 .card {
     background: white;
-    margin: auto;
+    /* margin: auto;
     margin-top: 5%;
     max-width: 30%;
-    padding: 20px 50px;
+    padding: 20px 50px; */
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
@@ -122,11 +125,13 @@
     width: 49px;
     height: 49px;
 }
-
 /*FOOTER*/
 #footer{
     height: 90px;
     background: grey;
+}
+.copyright{
+    text-align: right;
 }
 
 @media (max-width:768px){
@@ -148,5 +153,8 @@
 
 
 /*FOOTER*/
-
+.copyright{
+    text-align: center;
+}
+#footer {height: 100%;}
 }
