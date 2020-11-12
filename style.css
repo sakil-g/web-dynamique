@@ -57,7 +57,7 @@
   }
 /*SECTION HUMAN*/
 #activites{
-    height: 406px;
+
     background-image: url("ressources/womens-smart-watch.jpg");
   
     
@@ -73,16 +73,23 @@
 .businessman {
     width: 220px;
 }
-@media (max-width: 768px){
+/*@media (max-width: 768px){
     .businessman {
         width: 100px;
-    }  
+    } 
+    .texthumain {
+        width: 100px;
+    } 
+}*/
+/*.texthumain{
+    position: relative
 }
 @media (max-width: 576px){
     .businessman {
-        width: 50px;
+        position: absolute;
+        z-index: -1;
     }  
-}
+}*/
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
 .swiper-container {
