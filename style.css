@@ -2,13 +2,16 @@
 .col-lg-4, .col-sm-12 {
     padding: 0px!important;
 }
-/* body, html{
-    max-width: 1024px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
+h1,h2,h3,h4 {
+	font-family: 'Allerta', Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+}
+p, li {
+	font-family: 'Crimson Text', Georgia, Times, serif;
+	font-size: 20px;
+	line-height: 25px;
+}
 /*HEADERS*/
 .masthead {
     padding-top: 10rem;
@@ -70,7 +73,19 @@
     background-size: cover;
 
 }
-
+.businessman {
+    width: 220px;
+}
+@media (max-width: 768px){
+    .businessman {
+        width: 100px;
+    }  
+}
+@media (max-width: 576px){
+    .businessman {
+        width: 50px;
+    }  
+}
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
 .swiper-container {
@@ -108,6 +123,9 @@
     height: 90px;
     background: grey;
 }
+.copyright{
+    text-align: right;
+}
 
 @media (max-width:768px){
     /*GLOBAL*/
@@ -128,5 +146,7 @@
 
 
 /*FOOTER*/
-
+.copyright{
+    text-align: center;
+}
 }
