@@ -88,6 +88,9 @@ p, li {
 }
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
+#services{
+    display: flex;
+}
 .swiper-container {
     width: 100%;
     height: 300px;
@@ -140,7 +143,10 @@ p, li {
 
 
 /*SECTION AUTHOR SERVICES CAROUSSEL*/
-
+#services{
+    display: flex;
+    flex-direction: column;
+}
 
 /*SECTION CONTACT NEWSLETTER CARTE*/
 
